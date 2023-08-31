@@ -1,20 +1,18 @@
 const express = require('express')
 const app = express()
-
-
-app.set('view engine','ejs')
-app.use(express.static('public'))
-
-
-
-app.post("/",(req,res)=>{
-    console.log(req.query)
-
-    res.render('index')
-})
+const productRoutes = require('./routes/products')
+const customerRoutes = require('./routes/customers')
 
 
 
-app.listen(808,()=>{
-  console.log("Server is Running...")  
+
+app.use('/api/products',productRoutes)
+app.use('/api/customers',customerRoutes)
+
+
+
+
+
+app.listen(3000, () => {
+    console.log("server is running")
 })
