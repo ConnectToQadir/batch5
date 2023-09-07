@@ -10,7 +10,7 @@ app.use('/api/students',studentsRoutes)
 
 
 
-mongoose.connect('mongodb://127.0.0.1:27017/batch5').then((res)=>{
+mongoose.connect('mongodb+srv://umairjutt2025:umairjutt2025@umair-cluster.oducycs.mongodb.net/batch5?retryWrites=true&w=majority').then((res)=>{
     console.log("Connected!")
 }).catch((err)=>{
     console.log(err.message)
