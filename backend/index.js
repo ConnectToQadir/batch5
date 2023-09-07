@@ -18,6 +18,8 @@ mongoose.connect('mongodb+srv://umairjutt2025:umairjutt2025@umair-cluster.oducyc
 
 
 
-app.listen(3000, () => {
+var port = process.env.PORT || 3000
+
+app.listen(port, () => {
     console.log("server is running")
 })
