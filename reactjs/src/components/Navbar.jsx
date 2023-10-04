@@ -7,6 +7,7 @@ const Navbar = () => {
     { to: "/about", lable: "About" },
     { to: "/contact", lable: "Contact" },
     { to: "/apply-online", lable: "Apply" },
+    { to: "/hooks", lable: "Hooks" },
   ];
 
   return (

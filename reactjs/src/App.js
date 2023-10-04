@@ -5,6 +5,7 @@ import ApplyOnline from "./pages/ApplyOnline";
 import Layout from "./Layout";
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Hooks from "./pages/Hooks";
 
 const App = () => {
   return (
@@ -14,6 +15,7 @@ const App = () => {
           <Route path="/contact" element={<Contact />} />
           <Route path="/about" element={<About />} />
           <Route path="/apply-online" element={<ApplyOnline />} />
+          <Route path="/hooks" element={<Hooks />} />
         </Routes>
     </Layout>
   );
