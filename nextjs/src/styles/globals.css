@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+
+.dashboadMain{
+    box-shadow: inset 0 0 10px 1px rgba(0, 0, 0, 30%);
+    background-color: #f3f3f3;
+}
+
+
+#dashboardDrop:checked + ul{
+    display: block;
+}
