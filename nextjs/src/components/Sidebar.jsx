@@ -33,7 +33,7 @@ const Sidebar = () => {
           </Link>
         </li>
 
-        <li>
+        {/* <li>
           <label htmlFor='dashboardDrop' onClick={()=>router.push('/dashboard/reports/sales')} className={`${pathname.startsWith('/dashboard/reports') ? "bg-gray-200" : "hover:bg-gray-100"} flex items-center rounded-r-full pl-4 py-1`}>
             <div><i class={`bx ${pathname.startsWith('/dashboard/reports') ? "bxs-bar-chart-alt-2" : "bx-bar-chart-alt-2"}`}></i></div>
             <div className='ml-3'>Reports</div>
@@ -43,14 +43,14 @@ const Sidebar = () => {
             <li><Link className='border w-full block py-[2px]' href="/dashboard/reports/sales" >Sale Reports</Link></li>
             <li><Link className='border w-full block py-[2px]' href="/dashboard/reports/purchase">Purchase Reports</Link></li>
           </ul>
-        </li>
+        </li> */}
 
-        <li>
+        {/* <li>
           <Link className={`${pathname == "/dashboard/products" ? "bg-gray-200" : "hover:bg-gray-100"} flex items-center rounded-r-full pl-4 py-1`} href="/dashboard/products">
             <div><i class={`bx ${pathname == "/dashboard/products" ? "bxs-box" : "bx-box"}`}></i></div>
             <div className='ml-3'>Products</div>
           </Link>
-        </li>
+        </li> */}
 
 
 
